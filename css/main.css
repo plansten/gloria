@@ -95,6 +95,10 @@ font-family: Lato_italic;
 src: local(lol), url(../fonts/Lato_italic.ttf);
 }
 
+@font-face {
+font-family: glyphicons-halflings-regular;
+src: local(lol), url(../fonts/glyphicons-halflings-regular.ttf);
+}
 
 .menuu
 {
@@ -118,7 +122,12 @@ letter-spacing: 1px;
 }
 
 
-
+.sml
+{
+	
+	left: 0px;
+	top:5px;
+}
 
 
 
@@ -132,8 +141,7 @@ margin-bottom: 0px;
 }
 .centr
 {
-box-shadow:0 0 100px #000;	
-border: 1px solid rgba(255,255,255,0.2);
+box-shadow:0 0 100px #000, 0 0 7px #fff;
 }
 a.knopka
 {
