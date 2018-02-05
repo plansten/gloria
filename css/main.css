@@ -31,8 +31,37 @@ letter-spacing: 15px;
 
 }
 
+.sml
+{
+	font-size: 15px;
+	left: 5px;
+	top: -5px;
 }
 
+}
+
+@media (max-width: 450px) {
+	
+
+.sml
+{
+	font-size: 10px;
+	left: 5px;
+	top: -5px;
+}
+
+	
+	.container>.jumbotron>h1
+
+{
+font-size: 45px;
+letter-spacing: 10px;
+
+
+		
+		
+		
+}}
 @media (min-width: 768px) {
 .header {
 display: none;	
@@ -43,6 +72,13 @@ display: none;
     color: #fff;
 	padding-top: 23px;
 	font-size: 24px;
+}
+
+.sml
+{
+	font-size: 30px;
+	left: 12px;
+	top:-10px;
 }
 
 .centr
@@ -122,13 +158,15 @@ letter-spacing: 1px;
 }
 
 
-.sml
-{
-	
-	left: 0px;
-	top:5px;
-}
 
+
+.telf
+{
+	font-size: 24px;
+	left: 0px;
+	top: 5px;
+	
+}
 
 
 .container>.jumbotron
