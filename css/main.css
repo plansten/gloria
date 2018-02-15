@@ -93,11 +93,43 @@ margin-top: 230px;
 font-size: 130px;
 letter-spacing: 15px;
 
+}}
+
+.yslygi{
+	
+	width:100%;
+	height: auto;
+	background-color: rgb(132,118,118);
+	margin:0;
+	padding:0;
+	
 }
 
+.yslygi>ul
+{
+	margin:0;
+	padding:0;
 }
 
 
+.yslygi>ul>li
+{
+	display: inline-block;
+	width:358px;
+	height:425px;
+	background-color: #bbb;
+	margin:0;
+	padding:0;
+}
+
+.dsd
+{
+	
+background: url(../images/fon.jpg) 100%  no-repeat;
+background-size: cover;
+background-position: center top;	
+	
+}
 
 .ffon > .container
 {
@@ -131,10 +163,6 @@ font-family: Lato_italic;
 src: local(lol), url(../fonts/Lato_italic.ttf);
 }
 
-@font-face {
-font-family: glyphicons-halflings-regular;
-src: local(lol), url(../fonts/glyphicons-halflings-regular.ttf);
-}
 
 .menuu
 {
@@ -157,6 +185,19 @@ letter-spacing: 1px;
 
 }
 
+
+h1>span>.glyphicon {
+  position: relative;
+  top: -10px;
+  left: 12px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
 
 
@@ -209,27 +250,10 @@ a.knopka:active {
 }
 
 
-a.button7 {
-  font-weight: 700;
-  color: white;
-  text-decoration: none;
-  padding: .8em 1em calc(.8em + 3px);
-  border-radius: 3px;
-  background: rgb(64,199,129);
-  box-shadow: 0 -3px rgb(53,167,110) inset;
-  
-} 
-a.button7:hover { background: rgb(53, 167, 110); }
-a.button7:active {
-  background: rgb(33,147,90);
-  box-shadow: 0 3px rgb(33,147,90) inset;
-}
-
 
 .texd {
 color: #123;
 position: relative;
-margin-left: 10px;
 }
 
 .header .navbar {
