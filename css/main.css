@@ -19,7 +19,7 @@ padding: 10px 15px;
 }
 .centr
 {
-height: 450px;
+height: 390px;
 margin-top: 65px;
 }	
 
@@ -199,7 +199,15 @@ h1>span>.glyphicon {
   -moz-osx-font-smoothing: grayscale;
 }
 
-
+.telff
+{
+	font-size: 10px;
+	left: 0px;
+	top: 15px;
+	color: #fff;
+	
+	
+}
 
 .telf
 {
