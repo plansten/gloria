@@ -199,15 +199,8 @@ h1>span>.glyphicon {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.telff
-{
-	font-size: 10px;
-	left: 0px;
-	top: 15px;
-	color: #fff;
-	
-	
-}
+
+
 
 .telf
 {
@@ -297,6 +290,6 @@ font-family: Calligraph;
   font-size: 18px;
   line-height: 20px;
   font-family: Calligraph;
-  font-size: 40px;
-  letter-spacing: 5px;
+  font-size: 20px;
+  letter-spacing: 2px;
 }
