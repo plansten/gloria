@@ -7,6 +7,7 @@ background-position: center top;
 }
 
 
+
 @media (max-width: 767px) {
 .nav-justified
 {
@@ -95,31 +96,44 @@ letter-spacing: 15px;
 
 }}
 
-.yslygi{
+
+.ysl{
 	
-	width:100%;
-	height: auto;
-	background-color: rgb(132,118,118);
-	margin:0;
-	padding:0;
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	text-align: center;
+	top: 45px;
+	
+	font-size: 30px;
+	letter-spacing: 5px;
+	
+
+}
+
+.ysl>b
+{
+color: #fff;	
 	
 }
 
-.yslygi>ul
-{
-	margin:0;
-	padding:0;
+.ysl>b>span{
+	
+	top: -2px;
+	font-size: 18px;
+	margin: 0 8px;
+	
+	
 }
 
 
-.yslygi>ul>li
+
+.yslygi
 {
-	display: inline-block;
-	width:358px;
+	z-index: -1;
 	height:425px;
-	background-color: #bbb;
-	margin:0;
-	padding:0;
+	background-color: #847676;
+	padding: 105px 27px 0px 27px;
 }
 
 .dsd
@@ -131,13 +145,6 @@ background-position: center top;
 	
 }
 
-.ffon > .container
-{
-	
-
-	
-	
-}
 
 .ffon{
 background: url(../images/verh.jpg) 100% no-repeat;
@@ -221,7 +228,7 @@ margin-bottom: 0px;
 }
 .centr
 {
-box-shadow:0 0 100px #000, 0 0 7px #fff;
+box-shadow:0 0 7px #fff, 0 0 100px #000;
 }
 a.knopka
 {
