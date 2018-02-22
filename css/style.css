@@ -264,17 +264,7 @@ h5 {
 h6 {
   font-size: 11px;
 }
-strong,
-b {
-  color: #555;
-}
-a {
-  color: #0088cc;
-}
-a:hover,
-a:focus {
-  outline: none;
-}
+
 small,
 .small {
   font-size: 13px;
