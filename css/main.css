@@ -4,6 +4,11 @@ body
 background: url(../images/fon.jpg) 100%  repeat;
 background-size: cover;
 background-position: center top;
+font-family: Lato;
+font-size: 20px;
+letter-spacing: 2px;
+font-style: normal;
+font-weight: lighter;
 }
 
 
@@ -104,13 +109,33 @@ letter-spacing: 15px;
 	z-index: 2;
 	width: 100%;
 	text-align: center;
-	top: 45px;
-	
+	top: 47px;	
 	font-size: 30px;
 	letter-spacing: 5px;
 	
 
 }
+
+.yslygi>div>p
+
+{
+color:rgb(37,7,7);
+}
+
+.yslygi>div>p:last-of-type
+
+{
+color:rgb(255,255,255);
+}
+
+.yslygi>div>p>span
+
+{
+
+font-family: Calligraph;
+font-size: 22px;
+}
+
 
 .yslygi>img
 {
@@ -140,9 +165,9 @@ color: #fff;
 .yslygi
 {
 	
-	height:425px;
+	
 	background-color: #847676;
-	padding: 105px 27px 0px 27px;
+	padding: 55px 27px 0px 27px;
 }
 
 
@@ -255,7 +280,6 @@ a.knopka
 	height: 50px;
 	padding-top: 9px;
 	letter-spacing: 2px;
-	
 }
 
 .knysl
@@ -269,7 +293,6 @@ a.knopka
 	margin-right: auto;
 	padding-top: 12px;
 	letter-spacing: 1px;
-	
 }
 
 
