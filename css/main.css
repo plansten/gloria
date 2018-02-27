@@ -1,14 +1,13 @@
 body
 {
 	
-background: url(../images/fon.jpg) 100%  repeat;
-background-size: cover;
-background-position: center top;
+background: url(../images/fonv.jpg) 100%  repeat;
 font-family: Lato;
 font-size: 20px;
 letter-spacing: 2px;
 font-style: normal;
 font-weight: lighter;
+box-shadow: inset 0 0 200px rgba(0,0,0,0.6);;
 }
 
 
@@ -113,6 +112,7 @@ letter-spacing: 15px;
 	font-size: 30px;
 	letter-spacing: 5px;
 	
+	
 
 }
 
@@ -164,8 +164,6 @@ color: #fff;
 
 .yslygi
 {
-	
-	
 	background-color: #847676;
 	padding: 55px 27px 0px 27px;
 }
