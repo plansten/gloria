@@ -1,0 +1,446 @@
+<style>
+.text-containertrue {
+  font: bold tahoma, arial, helvetica, sans-serif;
+  color: #088A29;
+}
+
+   li {
+    list-style-type: decimal; /* Убираем маркеры */
+   }
+
+   
+  .text-container {
+  font: bold tahoma, arial, helvetica, sans-serif;
+  color: #BDBDBD;
+  }
+  
+  input {
+  display: none;
+  }
+
+   
+
+</style>
+
+<div> 
+Для фиксирования всех ошибок, которые являются невосстановимыми исключениями:
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-containertrue">необходимо использовать серверный и клиентский технологические журналы.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-container">достаточно серверного журнала, т.к. в него попадают все ошибки.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-container">достаточно клиентского журнала, т.к. ошибки, отображаемые на клиенте, в него не попадают</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER4" id="gwt-uid-4" tabindex="0"><label for="gwt-uid-4" class="text-container">необходимо использовать Центр управления производительностью.</label></span></li></ul></div> 
+
+
+
+  </div>
+
+<div> 
+Как посчитать число таймаутов в СУБД за период?
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-container">По технологическому журналу посчитать число событий EXCP.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-container">По технологическому журналу посчитать число событий с текстом "Lock request time out period exceeded" и "Maximum idle time for lock access" (Текст может отличаться в зависимости от используемой СУБД, ее языка и версии).</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-containertrue">По технологическому журналу посчитать число событий с текстом "Lock request time out period exceeded" (Текст может отличаться в зависимости от используемой СУБД, ее языка и версии).</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER4" id="gwt-uid-4" tabindex="0"><label for="gwt-uid-4" class="text-container">По технологическому журналу посчитать число событий с текстом " Unresolved lock conflict in a session" и " Возникла мертвая блокировка во время ожидания ресурса" (Текст может отличаться в зависимости от версий и языков платформы 1С и СУБД).</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER5" id="gwt-uid-5" tabindex="0"><label for="gwt-uid-5" class="text-container">По Журналу регистрации, установив отбор на событие "ошибки блокировок".</label></span></li></ul></div> 
+
+
+
+  </div>
+
+
+  <div> 
+Для подсчёта количества таймаутов за день работы информационной системы следует использовать:
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-containertrue">технологический журнал.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-container">ЦУП.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-container">консоль кластера 1С.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER4" id="gwt-uid-4" tabindex="0"><label for="gwt-uid-4" class="text-container">MS SQL Profiler</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER5" id="gwt-uid-5" tabindex="0"><label for="gwt-uid-5" class="text-container">Windows Performance Monitor.</label></span></li></ul></div> 
+
+
+
+  </div>
+  
+  <div> 
+Как посчитать число взаимоблокировок на управляемых блокировках 1С за период?
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-container">По технологическому журналу посчитать число событий EXCP.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-container">По технологическому журналу посчитать число событий с текстом "Lock request time out period exceeded" и "Maximum idle time for lock access" (Текст может отличаться в зависимости от версий и языков платформы 1С и СУБД).</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-container">По технологическому журналу посчитать число событий с текстом "Unresolved lock conflict in a session" и "Неразрешимый конфликт блокировок".</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER4" id="gwt-uid-4" tabindex="0"><label for="gwt-uid-4" class="text-containertrue">По Журналу регистрации, установив отбор на событие "ошибки блокировок".</label></span></li></ul></div> 
+
+
+
+  </div>
+
+  <div> 
+Можно ли отличить избыточные блокировки от неизбыточных с помощью ЦУП?
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-container">Можно. Для этого необходимо провести замеры с анализом ожиданий на блокировках.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-container">Можно. Для этого необходимо провести замеры с анализами ожиданий на блокировках и взаимоблокировок.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-container">Нельзя. Для анализа избыточности блокировок необходимо использовать SQL Server Profiler.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER4" id="gwt-uid-4" tabindex="0"><label for="gwt-uid-4" class="text-containertrue">Нельзя. Избыточность блокировки определяется не техническими средствами, а логикой системы.</label></span></li></ul></div> 
+
+
+
+  </div>
+
+  <div> 
+Что указывает показатель "Число взаимоблокировок СУБД" в ЦУП?
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-containertrue">Количество взаимоблокировок во всех базах сервера СУБД, содержащего исследуемую базу данных.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-container">Количество взаимоблокировок во всех базах сервера 1С, содержащего исследуемую информационную базу.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-container">Количество взаимоблокировок в исследуемой информационной базе.</label></span></li></ul></div> 
+
+
+
+  </div>
+
+<div> 
+В результате расследования с помощью ЦУП получены следующие результаты: число взаимоблокировок СУБД за время анализа 250, результат анализа взаимоблокировок пустой. Что это означает?
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-container">В исследуемой базе произошло 250 взаимоблокировок, но ЦУП не смог их проанализировать.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-container">На сервере СУБД, где размещается исследуемая база, произошло 250 взаимоблокировок, но все в других рабочих базах.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-containertrue">На сервере СУБД, где размещается исследуемая база, произошло 250 взаимоблокировок, но все в других базах, в т.ч. в служебных.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER4" id="gwt-uid-4" tabindex="0"><label for="gwt-uid-4" class="text-container">На сервере СУБД, где размещается исследуемая база, произошло 250 взаимоблокировок во всех базах, в т.ч. и в исследуемой, но ЦУП не смог их проанализировать.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER5" id="gwt-uid-5" tabindex="0"><label for="gwt-uid-5" class="text-container">На сервере СУБД, где размещается исследуемая база, произошло 250 взаимоблокировок во всех базах, возможно, что и в исследуемой, но ЦУП не смог их проанализировать.</label></span></li></ul></div> 
+
+
+
+  </div>
+  
+    <div> 
+Вычисление количества взаимоблокировок в исследуемой информационной базе за период с помощью мониторинга ЦУП:
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-container">возможно, если включить замер количества взаимоблокировок СУБД.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-containertrue">возможно, только если это единственная рабочая база на сервере СУБД.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-container">невозможно.</label></span></li></ul></div> 
+
+
+
+  </div>
+  
+    <div> 
+Показатель производительности системы по методике APDEX рассчитывается по формуле (где N - общее число операции за период; Nt - операции, уложившиеся в целевое время T; N4t - операции, не уложившиеся в T, но уложившиеся в 4*T.):
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-containertrue">APDEX = (Nt + N4t / 2) / N</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-container">APDEX = (Nt + N4t) / N</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-container">APDEX = (Nt + N4t / 2 * T) / N</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER4" id="gwt-uid-4" tabindex="0"><label for="gwt-uid-4" class="text-container">APDEX = (Nt + N4t) / 2N</label></span></li></ul></div> 
+
+
+
+  </div>
+10
+<div> 
+Рассчитайте показатель APDEX если общее число операций за период - 16; операции, уложившиеся в целевое время - 8; операции, не уложившиеся в целевое время, но уложившиеся в 4 * целевое время – 8.
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-containertrue">0,75</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-container">0,67</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-container">2.67.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER4" id="gwt-uid-4" tabindex="0"><label for="gwt-uid-4" class="text-container">0.89.</label></span></li></ul></div> 
+
+
+
+  </div>
+  
+    <div> 
+При подсчете значения показателя производительности APDEX его значение оказалось равным 2,5. Что можно сказать о производительности системы?
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-container">Отлично.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-container">Очень плохо.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-containertrue">APDEX посчитан с ошибкой.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER4" id="gwt-uid-4" tabindex="0"><label for="gwt-uid-4" class="text-container">Только по показателю Apdex = 2,5 сказать ничего нельзя. Требуется также получить оценку производительности от пользователей.</label></span></li></ul></div> 
+
+
+
+  </div>
+  
+    <div> 
+В процессе работы информационной системы происходят падения с образованием дампов. Какая пара дампов скорее всего вызвана одной и той же проблемой?
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-containertrue">rphost_8.2.19.121_67dc3f2d_20141210092337_23324.mdmp rphost_8.2.19.121_67dc3f2d_20141210124556_6789.mdmp</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-container">rphost_8.2.19.121_67dc3f2d_20141210092337_23324.mdmp rphost_8.2.19.121_58dc3f2d_20141210124556_6789.mdmp</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-container">rphost_8.2.19.121_67dc3f2d_20141210092337_23324.mdmp rphost_8.2.19.121_58dc3f2d_20141210092337_6789.mdmp</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER4" id="gwt-uid-4" tabindex="0"><label for="gwt-uid-4" class="text-container">rphost_8.2.19.121_67dc3f2d_20141210092337_23324.mdmp rphost_8.2.19.121_58dc3f2d_20141210124556_23324.mdmp</label></span></li></ul></div> 
+
+
+
+  </div>
+  
+    <div> 
+В имени файла дампа "rphost_8.2.19.121_67dc3f2d_20141210092337_23324.mdmp", образующегося при падении процесса 1С, третья группа символов определяется:
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-containertrue">указателем смещения вершины стека в 0x представлении, что интерпретируется как тип ошибки.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-container">временем создания дампа.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-container">временем окончания записи дампа.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER4" id="gwt-uid-4" tabindex="0"><label for="gwt-uid-4" class="text-container">PID процесса.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER5" id="gwt-uid-5" tabindex="0"><label for="gwt-uid-5" class="text-container">уникальным идентификатором базы.</label></span></li></ul></div> 
+
+
+
+  </div>
+14
+
+  <div> 
+В имени файла дампа "rphost_8.2.19.121_67dc3f2d_20141210092337_23324.mdmp", образующегося при падении процесса 1С, группа _20141210092337_ определяется:
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-container">временем начала вызова, который привел к ошибке и аварийному завершению процесса</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-containertrue">временем создания дампа.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-container">временем окончания записи дампа и журнала процесса.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER4" id="gwt-uid-4" tabindex="0"><label for="gwt-uid-4" class="text-container">временем старта процесса</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER5" id="gwt-uid-5" tabindex="0"><label for="gwt-uid-5" class="text-container">временем начала сеанса, который привел к ошибке и аварийному завершению процесса</label></span></li></ul></div> 
+
+
+
+  </div>
+
+  <div> 
+В имени файла дампа "rphost_8.2.19.121_67dc3f2d_20141210092337_23324.mdmp", образующегося при падении процесса 1С, четвертая группа цифр определяется:
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-container">указателем смещения вершины стека в 0x представлении, что интерпретируется как тип ошибки.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-container">временем создания дампа.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-container">временем окончания записи дампа.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER4" id="gwt-uid-4" tabindex="0"><label for="gwt-uid-4" class="text-containertrue">PID процесса.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER5" id="gwt-uid-5" tabindex="0"><label for="gwt-uid-5" class="text-container">уникальным идентификатором базы.</label></span></li></ul></div> 
+
+
+
+  </div>
+
+  <div> 
+Что входит в понятие технологического качества?
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-container">Доступность, стабильность, устойчивость, работоспособность, производительность, масштабируемость, отсутствие ошибок блокировок, высокий показатель Apdex.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-container">Доступность, стабильность, устойчивость, работоспособность, масштабируемость, не ухудшение технологических показателей при внесении изменений в информационную базу, отсутствие ошибок блокировок.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-container">Доступность, стабильность, устойчивость, работоспособность, производительность, высокий показатель Apdex, отсутствие снижения технологических показателей при внесении изменений в информационную систему.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER4" id="gwt-uid-4" tabindex="0"><label for="gwt-uid-4" class="text-container">Доступность, стабильность, устойчивость, работоспособность, производительность, масштабируемость, отсутствие снижения технологических показателей при внесении изменений в информационную систему.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER5" id="gwt-uid-5" tabindex="0"><label for="gwt-uid-5" class="text-containertrue">Вопросы, перечисленные во всех пунктах ответов.</label></span></li></ul></div> 
+
+
+
+  </div>
+  
+    <div> 
+Как посчитать число ошибок блокировок в выбранной информационной базе за период?
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-container">Настроить технологический журнал по событиям EXCP.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-container">Используя инструмент Центр контроля качества.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-container">Используя инструмент Центр управления производительностью.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER4" id="gwt-uid-4" tabindex="0"><label for="gwt-uid-4" class="text-containertrue">Верны ответы 1 и 2.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER5" id="gwt-uid-5" tabindex="0"><label for="gwt-uid-5" class="text-container">Верны ответы 2 и 3.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER6" id="gwt-uid-6" tabindex="0"><label for="gwt-uid-6" class="text-container">Верны ответы 1, 2, 3.</label></span></li></ul></div> 
+
+
+
+  </div>
+18
+  <div> 
+Какие виды контрольных процедур возможно настроить в Центре контроля качества?
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-containertrue">Контроль производительности, анализ вызовов кластера, контроль подключений, контроль потребления памяти.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-container">Контроль производительности, анализ вызовов кластера, контроль подключений, контроль потребления памяти, ожидания на блокировках.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-container">Контроль производительности, анализ длительных запросов, контроль подключений, контроль потребления памяти.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER4" id="gwt-uid-4" tabindex="0"><label for="gwt-uid-4" class="text-container">Оценка пользователей, контроль нагрузочных тестов, анализ взаимоблокировок, анализ ожиданий на блокировках.</label></span></li></ul></div> 
+
+
+
+  </div>
+
+  <div> 
+Если кластер серверов собран на нескольких серверах, сможет ли ЦУП анализировать данные технологического журнала со всех них?
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-container">Нет, он в принципе видит логи только с одного сервера.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-container">Да, все равно весь технологический журнал пишется на центральном сервере кластера.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-containertrue">Да, каталоги настройки технологического журнала и места их хранения, в т.ч. сетевые, указываются в табличной части, т.е. их может быть несколько разных.</label></span></li></ul></div> 
+
+
+
+  </div>
+
+  <div> 
+Каковы основные возможности ЦУП?
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-container">Анализ проблем производительности клиент-серверной системы, регламентный мониторинг производительности системы, создание и редактирование сценариев работы ЦУП, предоставление рекомендаций по исправлению ошибок блокировок.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-containertrue">Мониторинг технологических показателей работающей клиент-серверной системы, анализ проблем производительности и параллельной работы клиент-серверной системы, регламентный мониторинг системы, создание и редактирование сценариев работы ЦУП.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-container">Мониторинг технологических показателей производительности работающей клиент-серверной системы, анализ проблем производительности клиент-серверной системы, регламентный мониторинг производительности системы, создание и редактирование сценариев работы ЦУП, анализ загрузки оборудования, предоставление рекомендаций по исправлению ошибок блокировок.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER4" id="gwt-uid-4" tabindex="0"><label for="gwt-uid-4" class="text-container">Анализ проблем производительности клиент-серверной системы, регламентный мониторинг производительности системы, создание и редактирование сценариев работы ЦУП, оптимизация системы в автоматическом режиме.</label></span></li></ul></div> 
+
+
+
+  </div>
+
+<div> 
+Каковы основные возможности ТестЦентра?
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-containertrue">Описание многопользовательских сценариев тестирования. Запуск сценариев и контроль хода их выполнения. Сбор и хранение результатов тестирования.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-container">Автоматическое создание тестовых обработок. Автоматический запуск сценариев и контроль хода их выполнения. Сбор, хранение и анализ результатов тестирования.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-container">Описание многопользовательских сценариев тестирования. Расследование проблем, обнаруженных в ходе теста. Сбор, хранение и анализ результатов тестирования.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER4" id="gwt-uid-4" tabindex="0"><label for="gwt-uid-4" class="text-container">Описание многопользовательских сценариев тестирования. Автоматический запуск сценариев и контроль хода их выполнения. Генерация отчета по результатам цикла тестов.</label></span></li></ul></div> 
+
+
+
+  </div>
+
+  <div> 
+В регистре сведений Замеры времени, входящем в подсистему Оценка производительности, запись замера происходит не сразу после завершения замера. Чем эта задержка регулируется?
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-containertrue">Константой ОценкаПроизводительностиПериодЗаписи, если она не установлена, задержка автоматически устанавливается в 60 секунд.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-container">Расписанием регламентных заданий, если его нет, опрос идет 1 раз в 180 секунд.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-container">Расписанием опроса агентов тест-центра.</label></span></li></ul></div> 
+
+
+
+  </div>
+  
+    <div> 
+В соглашение об уровне обслуживания (SLA), в соответствии с рекомендациями ITIL обычно включают:
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-container">Список предоставляемых услуг</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-container">Спецификации уровней качества сервиса</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-container">Периоды времени, в которые будут предоставляться услуги, с учетом времени на тех. поддержку и обслуживание</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER4" id="gwt-uid-4" tabindex="0"><label for="gwt-uid-4" class="text-container">Описание процедуры решения инцидентов, включая время реакции на инциденты и процедуру эскалации на следующий уровень поддержки</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER5" id="gwt-uid-5" tabindex="0"><label for="gwt-uid-5" class="text-container">Верны варианты 1 и 2</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER6" id="gwt-uid-6" tabindex="0"><label for="gwt-uid-6" class="text-containertrue">Верны все варианты</label></span></li></ul></div> 
+
+
+
+  </div>
+
+  <div> 
+Контрольная процедура "Мониторинг системных ошибок" в ЦКК предназначена для:
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-container">Мониторинга аварийных завершений рабочих процессов кластера</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-container">Мониторинга аварийных завершений клиентских приложений</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-container">Контроля ошибочных ситуаций, с возможностью последующей группировки по контекстам исключений</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER4" id="gwt-uid-4" tabindex="0"><label for="gwt-uid-4" class="text-container">Сбора статистики по ошибкам блокировок</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER5" id="gwt-uid-5" tabindex="0"><label for="gwt-uid-5" class="text-containertrue">Верны варианты 3 и 4</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER6" id="gwt-uid-6" tabindex="0"><label for="gwt-uid-6" class="text-container">Верны все варианты</label></span></li></ul></div> 
+
+
+
+  </div>
+
+25
+<div> 
+Контрольная процедура "Контроль устойчивости системы" в ЦКК предназначена для:
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-containertrue">Мониторинга аварийных завершений рабочих процессов кластера</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-container">Мониторинга аварийных завершений клиентских приложений 1С</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-container">Контроля ошибочных ситуаций, с возможностью последующей группировки по контекстам исключений</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER4" id="gwt-uid-4" tabindex="0"><label for="gwt-uid-4" class="text-container">Сбора статистики по ошибкам блокировок</label></span></li></ul></div> 
+
+
+
+  </div>
+
+<div> 
+Контрольная процедура "Контроль подключений" в ЦКК предназначена для:
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-container">Сбора статистики о числе подключенных пользователей и используемых лицензий</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-container">Мониторинга попыток получения неправомерного доступа к информационным базам, зарегистрированным в кластере серверов 1С</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-containertrue">Оперативного обнаружения проблем с подключением к информационной базе</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER4" id="gwt-uid-4" tabindex="0"><label for="gwt-uid-4" class="text-container">Верны варианты 1 и 2</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER5" id="gwt-uid-5" tabindex="0"><label for="gwt-uid-5" class="text-container">Верны все варианты</label></span></li></ul></div> 
+
+
+
+  </div>
+  27
+  
+    <div> 
+Инструмент "Монитор" в ЦКК позволяет:
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-container">Выводить статический график с историей изменения показателей</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-container">Выводить динамический график для оперативного контроля изменения показателей</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-container">Отображать только график с динамикой использования оперативной памяти процессами кластера 1С</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER4" id="gwt-uid-4" tabindex="0"><label for="gwt-uid-4" class="text-container">Отображать только график с динамикой Apdex</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER5" id="gwt-uid-5" tabindex="0"><label for="gwt-uid-5" class="text-container">Отображать только график с динамикой показателей счетчиков ОС, собранных с произвольных серверов</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER6" id="gwt-uid-6" tabindex="0"><label for="gwt-uid-6" class="text-containertrue">Верны все варианты</label></span></li></ul></div> 
+
+
+
+  </div>
+  
+
+  
+  <div> 
+Для сбора статистики об общем количестве взаимоблокировок, происходящих в системе, следует использовать:
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-container">ЦКК</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-container">Технологический журнал</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-container">MS SQL Profiler</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER4" id="gwt-uid-4" tabindex="0"><label for="gwt-uid-4" class="text-container">ЦУП</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER5" id="gwt-uid-5" tabindex="0"><label for="gwt-uid-5" class="text-container">Верны варианты 2, 3 и 4</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER6" id="gwt-uid-6" tabindex="0"><label for="gwt-uid-6" class="text-containertrue">Верны варианты 1 и 2</label></span></li></ul></div> 
+
+
+
+  </div>
+  
+  <div> 
+По каким симптомам можно отличить "зависание" процессов кластера серверов от замедления работы?
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-container">Самопроизвольная выгрузка любого процесса кластера серверов "1С:Предприятия" или всех его процессов одновременно.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-containertrue">Состояние кластера, при котором он не отвечает на запросы пользователей, не позволяет создать новое клиентское подключение и т. п., но при этом остается загруженным в память рабочего сервера.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-container">Ошибка данных информационной базы или ошибка платформы, которая не позволяет пользователю выполнить какое-либо прикладное действие с системой.</label></span></li></ul></div> 
+
+
+
+  </div>
+  
+  <div> 
+На что указывает свойство WaitConnections у событий TLOCK в технологическом журнале кластера серверов?
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-container">Указывает число соединений, которые ждут возможности установки управляемой блокировки</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-container">Указывает число соединений, которые ждут возможности установки объектной блокировки</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-container">Указывает число соединений, которые ждут возможности установки блокировки на СУБД</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER4" id="gwt-uid-4" tabindex="0"><label for="gwt-uid-4" class="text-container">Указывает номера clientID соединений, которые хотят установить или удерживают несовместимую управляемую блокировку</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER5" id="gwt-uid-5" tabindex="0"><label for="gwt-uid-5" class="text-containertrue">Указывает номера connectID соединений, которые хотят установить или удерживают несовместимую управляемую блокировку</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER6" id="gwt-uid-6" tabindex="0"><label for="gwt-uid-6" class="text-container">Указывает номера сеансов, которые хотят установить или удерживают несовместимую управляемую блокировку</label></span></li></ul></div> 
+
+
+
+  </div>
+  
+  <div> 
+Отчет "Анализ производительности" в ЦКК позволяет:
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-containertrue">Оценить Apdex в разрезе информационных баз</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-container">Оценить динамику изменения Apdex</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-container">Оценить статистику распределения замеров по ключевой операции</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER4" id="gwt-uid-4" tabindex="0"><label for="gwt-uid-4" class="text-container">Оценить влияние ключевой операции на общий Apdex</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER5" id="gwt-uid-5" tabindex="0"><label for="gwt-uid-5" class="text-container">Верны варианты 1, 2 и 3</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER6" id="gwt-uid-6" tabindex="0"><label for="gwt-uid-6" class="text-container">Верны все варианты</label></span></li></ul></div> 
+
+
+
+  </div>
+  
+  <div> 
+Каким образом следует получать численную оценку от изменения условий функционирования системы?
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-containertrue">С помощью предварительно проведенного нагрузочного теста, сравнивая результаты, полученные на тестовой системе в старых и новых условиях функционирования</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-container">С помощью подсистемы "Оценка производительности" БСП, сравнивая Apdex до перехода реальной системы в новые условия функционирования, и после перехода (предварительное нагрузочное тестирование при этом проводить не нужно)</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-container">С помощью ЦУПа, сравнивая результаты мониторинга до изменения условий, и после изменения условий функционирования</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER4" id="gwt-uid-4" tabindex="0"><label for="gwt-uid-4" class="text-container">Верны варианты 1 и 2</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER5" id="gwt-uid-5" tabindex="0"><label for="gwt-uid-5" class="text-container">Верны все варианты</label></span></li></ul></div> 
+
+
+
+  </div>
+  
+    <div> 
+Что в технологическом журнале представляет собой событие EXCPCNTX?
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-containertrue">Событие, которые началось, но не закончилось в момент возникновения нештатной ситуации.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-container">Любая исключительная ситуация приложения системы "1С:Предприятие".</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-container">Восстановимая исключительная ситуация приложения системы "1С:Предприятие".</label></span></li></ul></div> 
+
+
+
+  </div>
+  
+    <div> 
+Какое событие технологического журнала содержит информацию о входящем удаленном вызове (на стороне приемника вызова)?
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-containertrue">CALL.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-container">SCALL.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-container">VRSREQUEST.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER4" id="gwt-uid-4" tabindex="0"><label for="gwt-uid-4" class="text-container">VRSRESPONSE.</label></span></li></ul></div> 
+
+
+
+  </div>
+  
+    <div> 
+Что в технологическом журнале представляет собой событие EXCP?
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-container">Событие, которые началось, но не закончились в момент возникновения нештатной ситуации.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-container">Любая исключительная ситуация приложения системы "1С:Предприятие".</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-container">Восстановимая исключительная ситуация приложения системы "1С:Предприятие".</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER4" id="gwt-uid-4" tabindex="0"><label for="gwt-uid-4" class="text-containertrue">Исключительная ситуация приложения системы "1С:Предприятие", которое штатно не обрабатывается и может послужить причиной аварийного завершения серверного процесса или подсоединенного к нему клиентского процесса</label></span></li></ul></div> 
+
+
+
+  </div>
+  
+  <div> 
+Какое событие технологического журнала содержит информацию об исходящем удаленном вызове (на стороне источника вызова)?
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-container">CALL.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-containertrue">SCALL.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-container">VRSREQUEST.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER4" id="gwt-uid-4" tabindex="0"><label for="gwt-uid-4" class="text-container">VRSRESPONSE.</label></span></li></ul></div> 
+
+
+
+  </div>  
+  
+  <div> 
+Какое событие технологического журнала содержит информацию о запросе к серверу приложений за некоторым ресурсом?
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-container">CALL.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-container">SCALL.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-containertrue">VRSREQUEST.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER4" id="gwt-uid-4" tabindex="0"><label for="gwt-uid-4" class="text-container">VRSRESPONSE.</label></span></li></ul></div> 
+
+
+
+  </div>
+  
+  <div> 
+Какое событие технологического журнала содержит информацию об ответе сервера приложений?
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-container">CALL.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-container">SCALL.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-container">VRSREQUEST.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER4" id="gwt-uid-4" tabindex="0"><label for="gwt-uid-4" class="text-containertrue">VRSRESPONSE.</label></span></li></ul></div> 
+
+
+
+  </div>
+    
+	  <div> 
+Чем событие LEAKS отличается от MEM?
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-containertrue">LEAKS - это событие, которое указывает, что память была выделена и не освобождена по окончанию исполнения вызова, а MEM - cобытие, связанное с увеличением объема памяти, занятой серверными процессами (ragent, rmngr, rphost).</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-container">MEM это событие, связанное с утечкой памяти, которая может быть вызвана ошибками в коде конфигурации, а LEAKS - cобытие, связанное с увеличением объема памяти, занятой серверными процессами (ragent, rmngr, rphost).</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-container">Это одно и то же событие (утечка памяти), имеющее разные названия в разных версиях платформы.</label></span></li></ul></div> 
+
+
+
+  </div>
+  
+  <div> 
+Что произошло, если получено сообщение Maximum idle time for lock access?
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-containertrue">Таймаут на управляемой блокировке.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-container">Таймаут СУБД.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-container">Сообщение не имеет отношения к конфликтам блокировок.</label></span></li></ul></div> 
+
+
+
+  </div>  
+
+  <div> 
+Что обозначает параметр "Max degree of parallelism" ("Максимальная степень параллелизма") (SQL Management studio, свойства SQL server, закладка Дополнительно)?
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-container">Ограничение на количество одновременно исполняющихся запросов сервером СУБД</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-container">Число одновременно возможных установленных несовместимых блокировок на один ресурс</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-container">Число процессов кластера серверов 1С, которые могут одновременно работать с сервером СУБД</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER4" id="gwt-uid-4" tabindex="0"><label for="gwt-uid-4" class="text-containertrue">Число процессоров, задействованных для выполнения одной инструкции, для каждого из планов параллельного выполнения</label></span></li></ul></div> 
+
+
+
+  </div>
+  
+  <div> 
+Если не считать нагрузочных тестов, что можно сказать про ключевые операции?
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-container">Ключевая операция всегда начинается на клиенте.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-container">Ключевая операция может состоять из нескольких интерактивных действий пользователя, потому что мы оптимизируем только не только систему, но и работу пользователей.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-container">Ключевая операция всегда заканчивается на клиенте. То есть мы не можем разбить на несколько КО действие, которое является единым с точки зрения пользователя. В этом нет смысла, т. к. требования к частям операции не могут быть определены (пользователю все равно).</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER4" id="gwt-uid-4" tabindex="0"><label for="gwt-uid-4" class="text-container">Ключевая операция всегда соответствует транзакции.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER5" id="gwt-uid-5" tabindex="0"><label for="gwt-uid-5" class="text-containertrue">Верны ответы 1 и 3.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER6" id="gwt-uid-6" tabindex="0"><label for="gwt-uid-6" class="text-container">Верны ответы 2, 3, 4.</label></span></li></ul></div> 
+
+
+
+  </div>
+  
+    <div> 
+Что такое ключевая операция?
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-containertrue">Это интерактивное неделимое действие, у которой количественной характеристикой, определяющей наступление нежелательного состояния, является время выполнения этой операции, и наступление этого нежелательного состояния является важной проблемой. На протяжении всей ключевой операции пользователь ожидает возврат управления от информационной системы.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-container">Это любое неинтерактивное действие, выполняемое системой</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-container">Это показатель работы у которой объективной характеристикой, определяющей наступление нежелательного состояния, является успех или неуспех выполнения этой операции,</label></span></li></ul></div> 
+
+
+
+  </div>
+  
+    <div> 
+Что подразумевается под приоритетом оптимизации ключевых операций?
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-container">Важность конкретных операций для отдельных пользователей.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-container">Порядок сортировки операций от наименее производительной до наиболее производительной</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-containertrue">Порядок оптимизации операций, назначенный исходя из недостаточно быстрого выполнения операций и важности для бизнеса пользователей</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER4" id="gwt-uid-4" tabindex="0"><label for="gwt-uid-4" class="text-container">Порядок сортировки операций от наиболее производительной до наименее производительной</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER5" id="gwt-uid-5" tabindex="0"><label for="gwt-uid-5" class="text-container">Наиболее простой порядок оптимизации операций</label></span></li></ul></div> 
+
+
+
+  </div>
+  
+    <div> 
+Что такое целевое время ключевой операции?
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-containertrue">Это время, за которое, с точки зрения пользователя, всегда должна выполняться ключевая операция, чтобы он считал работу системы отличной.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-container">Это время, до которого, с точки зрения разработчиков, реально можно улучшить время выполнения операции.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-container">Это минимальное время, за которое на текущий момент в реальности выполняется ключевая операция.</label></span></li></ul></div> 
+
+
+
+  </div>
+  
+  <div> 
+Требуется определить целевое время для нескольких ключевых операций. Заказчик затрудняется назвать целевое время. Каким образом определить целевое время?
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-container">Существует и является решаемой задача – получить целевое время только по заданному значению APDEX.</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-container">Назначить для всех операций целевое время, равное 1 секунде, как это сделано в БСП ОценкаПроизводительности</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-containertrue">Рассчитать требуемое целевое время исходя из частоты выполнения операций, оценки пользователей, наиболее часто выполняющих эти операции, и текущей оценки производительности по методике Apdex.</label></span></li></ul></div> 
+
+
+
+  </div>
+  
+  <div> 
+Что такое ошибки блокировок?
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-containertrue">Ошибки, возникающая при превышении времени ожидания на блокировке (lock request time out) или неразрешимый конфликт блокировок (взаимоблокировка – deadlock).</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-container">Ошибки "Ошибка блокировки объекта. Объект уже заблокирован" и "Операция не может быть выполнена из-за несоответствия версии или отсутствия записи базы данных (возможно, запись была изменена или удалена)". Либо, в последних версиях: "Данные были изменены или удалены другим пользователем".</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-container">Верны ответы 1 и 2.</label></span></li></ul></div> 
+
+
+
+  </div>
+  
+  <div> 
+Как обнаружить бесконечную рекурсию в коде на встроенном языке?
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-container">Только анализом кода под отладкой</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-containertrue">Технологическим журналом с событием EXCP</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-container">C помощью ЦУП</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER4" id="gwt-uid-4" tabindex="0"><label for="gwt-uid-4" class="text-container">Технологическим журналом с событием CALL</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER5" id="gwt-uid-5" tabindex="0"><label for="gwt-uid-5" class="text-container">С помощью журнала регистрации</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER6" id="gwt-uid-6" tabindex="0"><label for="gwt-uid-6" class="text-container">Технологическим журналом с событием REC</label></span></li></ul></div> 
+
+
+
+  </div>
+  
+<div> 
+Укажите правильную формулу расчета Apdex. Принятые обозначения: N – общее число выполнений данной операции; NS – число выполнений операции с временем отклика от 0 до Т; NL - число выполнений операции с временем отклика от 0 до 2T; NT – число выполнений операции с временем отклика от T до 4T; T – требуемое время, за которое должна выполняться операция; NF – число выполнений операции с временем отклика от 4T; Nall – число всех выполнений всех ключевых операций за выбранный период;
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-container">Apdex = (NF + NT/2)/Nall</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-containertrue">Apdex = (NS + NT/2)/N</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-container">Apdex = (NS + NL/2)/NT</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER4" id="gwt-uid-4" tabindex="0"><label for="gwt-uid-4" class="text-container">Apdex = (NL + NT/2)/N</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER5" id="gwt-uid-5" tabindex="0"><label for="gwt-uid-5" class="text-container">Apdex = (NF + N/2)/Nall</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER6" id="gwt-uid-6" tabindex="0"><label for="gwt-uid-6" class="text-container">Apdex = (NS + NT/2)/Nall</label></span></li></ul></div> 
+
+
+  </div>   
+
+  <div> 
+Контрольная процедура "Контроль потребления памяти" в ЦКК предназначена для:
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-container">Сбора информации о потреблении памяти рабочими процессами кластера 1С</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-container">Сбора информации о потреблении памяти клиентскими приложениями 1С</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-container">Оперативного мониторинга случаев превышения порогового значения оперативной памяти</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER4" id="gwt-uid-4" tabindex="0"><label for="gwt-uid-4" class="text-containertrue">Верны варианты 1 и 3</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER5" id="gwt-uid-5" tabindex="0"><label for="gwt-uid-5" class="text-container">Верны все варианты</label></span></li></ul></div> 
+
+
+
+  </div>
+  
+
+  <div> 
+Контрольная процедура "Контроль потребления памяти" в ЦКК позволяет получить:
+    <div><ul class="choice-interaction list-unstyled vertical"><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER1" id="gwt-uid-1" tabindex="0"><label for="gwt-uid-1" class="text-container">Точную информацию о потреблении памяти отдельными сеансами</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER2" id="gwt-uid-2" tabindex="0"><label for="gwt-uid-2" class="text-containertrue">Приблизительную оценку потребления памяти отдельными сеансами</label></span></li><li><span class="radio no-caption simple-choice"><input type="radio" name="simpleChoiceGroup-RESPONSE" value="ANSWER3" id="gwt-uid-3" tabindex="0"><label for="gwt-uid-3" class="text-container">Контрольная процедура не предназначена для получения оценки потребления памяти отдельными сеансами</label></span></li></ul></div> 
+
+
+
+  </div>
+
+
+
+  
+  
+
+  
+
+  
