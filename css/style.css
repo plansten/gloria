@@ -1,5 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+@font-face {
+font-family: Calligraph;
+src: local(lol), url(../fonts/Calligraph.ttf);
+}
+
+@font-face {
+font-family: Lato;
+src: local(lol), url(../fonts/Lato.ttf);
+}
+
+@font-face {
+font-family: Lato_italic;
+src: local(lol), url(../fonts/Lato_italic.ttf);
+}
+
+
 body
-{	
+{
+	
 background: url(../images/fonv.jpg) 100%  repeat;
 font-family: Lato;
 font-size: 20px;
@@ -8,41 +28,6 @@ font-style: normal;
 font-weight: lighter;
 box-shadow: inset 0 0 200px rgba(0,0,0,0.6);;
 }
-
-
-
-
-
-
-.nav > li > a
-{
-    color: #fff;
-	padding-top: 23px;
-	font-size: 24px;
-}
-
-.sml
-{
-	font-size: 30px;
-	left: 12px;
-	top:-10px;
-}
-
-.centr
-{
-	
-height: 640px;
-margin-top: 230px;
-}
-
-.container>.jumbotron>h1
-
-{
-font-size: 130px;
-letter-spacing: 15px;
-
-}}
-
 
 .ysl{
 	
@@ -118,23 +103,7 @@ background-size:  cover;
 background-position: center top;
 
 }
-@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display');
-@import url('https://fonts.googleapis.com/css?family=Lato');
 
-@font-face {
-font-family: Calligraph;
-src: local(lol), url(../fonts/Calligraph.ttf);
-}
-
-@font-face {
-font-family: Lato;
-src: local(lol), url(../fonts/Lato.ttf);
-}
-
-@font-face {
-font-family: Lato_italic;
-src: local(lol), url(../fonts/Lato_italic.ttf);
-}
 
 
 .menuu
@@ -467,29 +436,7 @@ font-family: Calligraph;
 .row-merge [class*="span"].pull-right {
   float: right;
 }
-@media (max-width: 767px) {
-  [class*="span"],
-  .uneditable-input[class*="span"],
-  .row-merge [class*="span"] {
-    float: none;
-    display: block;
-    width: 100%;
-    margin-left: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-  .span12,
-  .row-merge .span12 {
-    width: 100%;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-  .row-merge [class*="offset"]:first-child {
-    margin-left: 0;
-  }
-}
+
 /*= TYPOGRAPHY
 ---------------------------------------------------------------------------------------------- */
 
@@ -1074,82 +1021,143 @@ label {
     width: 80px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 979px) {
+  /*= RESPONSIVE RESET
+  ---------------------------------------------------------------------------------------------- */
+}
+@media (max-width: 979px) {
+  /*= RESPONSIVE RESET
+  ---------------------------------------------------------------------------------------------- */
+}
+
+@media (max-width: 767px) {
+  .nav-justified
+  {
+  display: none;	
+  }
+  
+  .nav > li > a
+  {	
+  padding: 10px 15px;
+  }
+  .centr
+  {
+  height: 390px;
+  margin-top: 65px;
+  }	
+  
+  .container>.jumbotron>h1
+  
+  {
+  font-size: 63px;
+  letter-spacing: 15px;
+  
+  }
+  
+  .sml
+  {
+    font-size: 15px;
+    left: 5px;
+    top: -5px;
+  }
+  
+  }
+  
+  @media (max-width: 450px) {
+    
+  
+  .sml
+  {
+    font-size: 10px;
+    left: 5px;
+    top: -5px;
+  }
+  
+    
+    .container>.jumbotron>h1
+  
+  {
+  font-size: 45px;
+  letter-spacing: 10px;
+  
+  
+      
+      
+      
+  }}
+  @media (min-width: 768px) {
   .header {
   display: none;	
   }
-}
+  
+  .nav > li > a
+  {
+      color: #fff;
+    padding-top: 23px;
+    font-size: 24px;
+  }
+  
+  .sml
+  {
+    font-size: 30px;
+    left: 12px;
+    top:-10px;
+  }
+  
+  .centr
+  {
+    
+  height: 640px;
+  margin-top: 230px;
+  }
+  
+  .container>.jumbotron>h1
+  
+  {
+  font-size: 130px;
+  letter-spacing: 15px;
+  
+  }}
   @media (max-width: 767px) {
-    .nav-justified
-    {
-    display: none;	
+    [class*="span"],
+    .uneditable-input[class*="span"],
+    .row-merge [class*="span"] {
+      float: none;
+      display: block;
+      width: 100%;
+      margin-left: 0;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
     }
-    
-    .nav > li > a
-    {	
-    padding: 10px 15px;
+    .span12,
+    .row-merge .span12 {
+      width: 100%;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
     }
-    .centr
-    {
-    height: 390px;
-    margin-top: 65px;
-    }	
-    
-    .container>.jumbotron>h1
-    
-    {
-    font-size: 63px;
-    letter-spacing: 15px;
-    
+    .row-merge [class*="offset"]:first-child {
+      margin-left: 0;
     }
-    
-    .sml
-    {
-      font-size: 15px;
-      left: 5px;
-      top: -5px;
-    }
-    
-    }
-    
-    @media (max-width: 450px) {
-      
-    
-    .sml
-    {
-      font-size: 10px;
-      left: 5px;
-      top: -5px;
-    }
-    
-      
-      .container>.jumbotron>h1
-    
-    {
-    font-size: 45px;
-    letter-spacing: 10px;
-    
-    
-        
-        
-        
-    }}
+  }
 
-    @media (max-width: 1020px) {
-      #portfolio .mix {
-        width: 25%;
-      }
+  @media (max-width: 1020px) {
+    #portfolio .mix {
+      width: 25%;
     }
-    @media (min-width: 768px) and (max-width: 979px) {
-      #portfolio .mix {
-        width: 33.333333%;
-      }
+  }
+  @media (min-width: 768px) and (max-width: 979px) {
+    #portfolio .mix {
+      width: 33.333333%;
     }
-    @media (max-width: 767px) {
-      #portfolio .mix {
-        width: 100%;
-      }
+  }
+  @media (max-width: 767px) {
+    #portfolio .mix {
+      width: 100%;
     }
+  }
+
 #success{
 	width: 100%;
 	padding: 10px;
