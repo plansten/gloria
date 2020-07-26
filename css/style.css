@@ -32,7 +32,6 @@ font-size: 20px;
 letter-spacing: 2px;
 font-style: normal;
 font-weight: lighter;
-box-shadow: inset 0 0 200px rgba(0,0,0,0.6);
 margin: 0;
 min-width: 320px;
 }
@@ -62,16 +61,20 @@ min-width: 320px;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,0.7);	
+  background-color: rgba(0,0,0,0.7);
+  
 }
 
 .header__body{
   position: relative;
-  z-index: 1;
   display: flex;
   justify-content: space-between;
   height: 90px;
   align-items: center;
+}
+
+.header__burger{
+  display: none;
 }
 
 .header__list{
@@ -109,7 +112,7 @@ background-color: rgba(255, 255, 255, 0.39);
 }
 
 
-.header__list>li{
+.header__list li{
   list-style: none;
 }
 
@@ -121,7 +124,6 @@ h1.gloria i{
   bottom: 20px;
   display: inline-block;
   position: relative;
-
 }
 
 .container>.jumbotron>h1
@@ -528,13 +530,115 @@ font-size: 30px;
 @media (max-width: 798px) {
 
   .container{
-
     margin: 0px auto;
     padding: 0px;
   }
 
 
+  .wrapper{
 
+  }
+  
+  .header{
+    z-index: 3;
+  }
+  
+  .header__body{
+
+    height: 60px;
+
+  }
+
+  .header__burger{
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    z-index: 4;
+    right: 0;
+    margin-right: 20px;
+  }
+
+  .header__burger:before, .header__burger:after {
+    content: '';
+    background-color: #fff;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+
+  }
+  
+  .header__burger:before{
+    top: 0;
+  }
+
+  .header__burger:after{
+    bottom: 0;
+  }
+
+  .header__burger span{
+    position: absolute;
+    background-color: #fff;
+    left: 0;
+    top: 9px;
+    width: 100%;
+    height: 2px;
+  }
+
+  .header__menu{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(252, 103, 103, 0.8);
+    padding: 70px 10px 20px 10px;
+    
+  }
+  
+  .header:before{
+    z-index: 3;
+  }
+
+  .header__list{
+    display: block;
+  }
+  
+  .header__link.phone{
+  
+  }
+  
+  .header__link
+  {	
+    display: block;
+    padding: 15px;
+    height: 70px;
+    right: 0px;
+    position: relative;
+    text-align: center;
+    width: 60%;
+    min-width: 270px;
+    margin: 0px auto;
+  }
+  
+  .header__link:active
+  {	
+  
+    
+  
+  }
+  
+  .header__link:hover
+  {	
+    border: 1px solid #fff;
+  }
+  
+  
+  .header__list li{
+    margin: 0;
+  }
 
 
   .slick-slide.slick-center{
@@ -650,27 +754,30 @@ margin-bottom: 30px;
     height: 1100px;
     z-index: 0;
   }
-
+  .kontakti{
+    padding: 20px 27px 0px 27px;
+  }
 
   }
   
 
   @media (max-width: 320px) {
 
-    .header__body {
-      position: relative;
-      z-index: 1;
-      display: flex;
-      justify-content: space-between;
-      height: 60px;
-      align-items: center;
-  }
+
+
+  
+
+
+
+
+
 
     .container>.jumbotron>h1{
       font-size: 50px;
       letter-spacing: 5px;
       
     }
+
 
     .jumbotron
 
@@ -694,6 +801,9 @@ margin-bottom: 30px;
       display: inline-block;
       position: relative;
       margin-left: 5px;
+    }
+    .kontakti{
+      padding: 10px 20px 0px 20px;
     }
     .map{
 height: 300px;
