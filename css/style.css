@@ -638,15 +638,17 @@ a.btn:active {
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 0px;
-    padding-left: 27px;
-    padding-right: 27px;
+    padding-left: 17px;
+    padding-right: 17px;
   }
 
   .slider__item{
     text-align: center;
     height: auto;
     margin-top: 0px;
-    
+    margin-left: 10px;
+    margin-right: 10px;
+
     
   }
 
