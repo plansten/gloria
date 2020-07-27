@@ -4,16 +4,19 @@
 @font-face {
 font-family: Calligraph;
 src: local(lol), url(../fonts/Calligraph.ttf);
+font-display: swap;
 }
 
 @font-face {
 font-family: Lato;
 src: local(lol), url(../fonts/Lato.ttf);
+font-display: swap;
 }
 
 @font-face {
 font-family: Lato_italic;
 src: local(lol), url(../fonts/Lato_italic.ttf);
+font-display: swap;
 }
 
 *, *:before, *:after{
@@ -132,7 +135,7 @@ letter-spacing: 15px;
 
 }
 
-h1.ysl i{
+h2.services__h2 i{
   font-size: 15px;
   bottom: 5px;
   display: inline-block;
@@ -146,7 +149,7 @@ h1.ysl i{
   margin-bottom: 30px;
 }
 
-.ysl{
+.services__h2{
 	
   position: relative;
   margin-bottom: 30px;
@@ -160,7 +163,7 @@ h1.ysl i{
 
 }
 
-.yslygi{
+.services__item{
 
   float: left;
   width: 50%;
@@ -169,19 +172,19 @@ h1.ysl i{
 
 
 
-.yslygi>div>p
+.services__item>div>p
 
 {
 color:rgb(37,7,7);
 }
 
-.yslygi>div>p:last-of-type
+.services__item>div>p:last-of-type
 
 {
 color:rgb(255,255,255);
 }
 
-.yslygi>div>p>span
+.services__item>div>p>span
 
 {
 
@@ -190,7 +193,7 @@ font-size: 22px;
 }
 
 
-.yslygi>img
+.services__item>img
 {
 	border-radius: 20px 0 20px 0 ;
 	
@@ -198,7 +201,7 @@ font-size: 22px;
 	
 }
 
-.ysl>b
+.services__h2 b
 {
 color: #fff;	
 	
@@ -208,7 +211,7 @@ color: #fff;
 
 
 
-.yslygi
+.services__item
 {
 	position: relative;
   padding: 0px 27px 55px 27px;
@@ -216,7 +219,7 @@ color: #fff;
 
 
 
-.ffon{
+.header__background{
 background: url(../images/verh.webp) 100% no-repeat;
 background-size:  cover;
 background-position: center top;
@@ -224,19 +227,6 @@ padding-top: 200px;
 }
 
 
-
-
-
-
-
-
-.telf
-{
-	font-size: 24px;
-	left: 0px;
-	top: 5px;
-	
-}
 
 
 .jumbotron
@@ -251,7 +241,7 @@ padding: 40px 40px 10px 40px;
 height: 640px;
 }
 
-a.knopka
+a.btn
 {
 	position: relative;	
 	background-color: rgb(128,242,249);
@@ -266,7 +256,7 @@ a.knopka
 	line-height: normal;	
 }
 
-.knost
+.btn__jumbotron
 {
 	float: right;
 	font-size: 21px;
@@ -277,7 +267,7 @@ a.knopka
   margin-right: 20px;
 }
 
-.knysl
+.btn__services
 {
 	width: 160px;
 	height: 45px;
@@ -291,8 +281,8 @@ a.knopka
 }
 
 
-a.knopka:hover { background: rgb(0,191,255);}
-a.knopka:active {
+a.btn:hover { background: rgb(0,191,255);}
+a.btn:active {
   background: rgb(0,191,255);
   box-shadow: 0 3px rgb(104,104,89) inset;
 }
@@ -301,17 +291,9 @@ a.knopka:active {
   text-align: center;
 }
 
-.texd {
-color: #123;
-position: relative;
-}
 
 
 
-.marc{
-	font-family: 'Sedgwick Ave Display', cursive;
-	color: #fff;
-}
 
 .gloria
 {
@@ -375,7 +357,7 @@ font-size: 30px;
 .slick-slide{
 }
 
-.foto{
+.photo{
   
   border: 2px solid #fff;
 }
@@ -392,7 +374,7 @@ font-size: 30px;
   height: 261px;
   margin-top: 0px;
 }
-.slick-slide.slick-center>.foto{
+.slick-slide.slick-center>.photo{
   width: 100%;
   margin-top: 0px;
 }
@@ -419,7 +401,7 @@ font-size: 30px;
 }
 
 
-.uzor{
+.semicircle{
   position: absolute;
   display: flex;
   width: 150px;
@@ -435,7 +417,7 @@ font-size: 30px;
   
 }
 
-.area{
+.wrapper{
   background-image: radial-gradient(circle at bottom, transparent 75px, #443b3b 76px);
   filter: drop-shadow(0px 30px 20px rgba(0, 0, 0));
   z-index: 1;
@@ -467,55 +449,55 @@ font-size: 30px;
 
 
 
-  .info{
-    display: flex;
-    position: relative;
-    justify-content: space-between;
-    color: #fff;
-  }
-  
-  .col3 span{
-    font-size: 15px;
-    bottom: 0px;
-    color: #fff;
-  }
-  
-  .yslygibc {
-    padding: 30px 0px 0px 0px;
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    z-index: 1;
-  }
-  .lightbrown {
-    background-color: #847575;
-  }
+.info{
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  color: #fff;
+}
 
-  .niz{
-    display: flex;
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-    background: linear-gradient(rgba(0,0,0, 0.7), #000);;
-    height: 715px;
-    z-index: 0;
-  }
+.col3 span{
+  font-size: 15px;
+  bottom: 0px;
+  color: #fff;
+}
+
+.services {
+  padding: 30px 0px 0px 0px;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  z-index: 1;
+}
+.lightbrown {
+  background-color: #847575;
+}
+
+.footer__background{
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background: linear-gradient(rgba(0,0,0, 0.7), #000);;
+  height: 715px;
+  z-index: 0;
+}
 
 
-  .slick-arrow i{
-    border-radius: 2px;
-    border: solid #443b3b;
-    border-width: 0 2px 2px 0;
-    display: inline-block;
-    padding: 5px;
+.slick-arrow i{
+  border-radius: 2px;
+  border: solid #443b3b;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 5px;
 }
 
 
 
 .right {
   margin-left: 8px;
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
 }
 
 .left {
@@ -671,7 +653,7 @@ font-size: 30px;
     display: flex;
   }
   
-  .slick-slide.slick-center>.foto{
+  .slick-slide.slick-center>.photo{
     width: 100%;
     margin-top: 0px;
   }
@@ -681,7 +663,7 @@ font-size: 30px;
     
     background-color: #443b3b;
   }
-  .uzor{
+  .semicircle{
     display: none;
   }
 
@@ -693,7 +675,7 @@ font-size: 30px;
   height: 390px;
   margin-top: 65px;
   }	
-  .yslygi{
+  .services__item{
 
     float: left;
     width: 100%;
@@ -705,7 +687,7 @@ font-size: 30px;
   {
   
   box-shadow: none;
-  padding: 30px 40px 10px 30px;
+  padding: 30px 40px 10px 40px;
   height: 440px;
   }
 
@@ -721,10 +703,10 @@ font-size: 30px;
     font-size: 20px;
   }
   .col3{
-float: none;
-width: 100%;
-text-align: center;
-margin-bottom: 30px;
+    float: none;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
   }
 
   .col3 span{
@@ -734,7 +716,7 @@ margin-bottom: 30px;
   }
 
   .cont{
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 
   }
 
@@ -753,7 +735,7 @@ margin-bottom: 30px;
   }
 
   
-  .niz{
+  .footer__background{
     display: flex;
     position: absolute;
     bottom: 0px;
@@ -770,7 +752,7 @@ margin-bottom: 30px;
   
   @media (max-width: 425px) {
 
-    .ffon {
+    .header__background {
       padding-top: 150px;
     }
 
@@ -819,7 +801,7 @@ margin-bottom: 30px;
     height: 500px;
     }
 
-    h1.ysl i{
+    h2.services__h2 i{
       font-size: 15px;
       bottom: 5px;
       display: inline-block;
@@ -839,7 +821,7 @@ margin-bottom: 30px;
     .map{
       height: 300px;
     }
-    .ffon{
+    .header__background{
       padding-top: 100px;
     }
   }
