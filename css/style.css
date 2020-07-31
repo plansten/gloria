@@ -703,7 +703,7 @@ a.btn:active {
     background-color: #443b3b;
     background-image: none;
     filter: none;
-    padding-bottom: 50px;
+    padding-bottom: 27px;
   }
   .semicircle{
     display: none;
@@ -740,10 +740,7 @@ a.btn:active {
   letter-spacing: 15px;
   
   }
-  .kontakti{
 
-    font-size: 20px;
-  }
   .col3{
     float: none;
     width: 100%;
@@ -787,7 +784,8 @@ a.btn:active {
     z-index: 0;
   }
   .kontakti{
-    padding: 20px 27px 0px 27px;
+    padding: 30px 27px 0px 27px;
+    font-size: 20px;
   }
 
   }
