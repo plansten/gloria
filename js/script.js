@@ -36,23 +36,48 @@
     
       $('.btn__jumbotron').click(function(event){
     
-    $('.popup').toggleClass('popup__status');
-    $('body').toggleClass('lock');
+    $('.popup').addClass('show');
+    $('.popup').removeClass('hidden');
+    $('.popup__info__body').addClass('show');
+    $('.popup__info__body').removeClass('hidden');    
+    $('body').addClass('lock');
     });
 
     $(document).keyup(function(e) {
 
         if (e.keyCode == 27) { 
-            $('.popup').toggleClass('popup__status');
+            $('.popup').removeClass('show');
+            $('.popup').addClass('hidden');
+            $('.popup__info__body').removeClass('show');
+            $('.popup__info__body').addClass('hidden'); 
             $('body').removeClass('lock');
+            
          } 
       });
       $('.popup__close').click(function(event){
-    
-        $('.popup').removeClass('popup__status');
+        $('.popup').removeClass('show');
+        $('.popup').addClass('hidden');
+        $('.popup__info__body').removeClass('show');
+        $('.popup__info__body').addClass('hidden');
+        $('.popup__getservice__body').removeClass('show');
+        $('.popup__getservice__body').addClass('hidden'); 
         $('body').removeClass('lock');
      });  
     
+
+
+
+
+     $('.btn__services').click(function(event){
+    
+        $('.popup').addClass('show');
+        $('.popup').removeClass('hidden');
+        $('.popup__getservice__body').addClass('show');
+        $('.popup__getservice__body').removeClass('hidden'); 
+        $('body').addClass('lock');
+        });
+
+     
     
     });
       
