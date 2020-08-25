@@ -347,6 +347,7 @@ padding-top: 200px;
   justify-content: space-between;
 }
 .form__group {
+  font-size: 15px;
   margin: 0 0 24px;
   position: relative;
 }
