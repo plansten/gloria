@@ -13,7 +13,7 @@
 <meta name="theme-color" content="#847676">
 <script src="https://kit.fontawesome.com/3df9254482.js" crossorigin="anonymous"></script>
 </head>
-<div class="popup">
+<div class="popup hidden">
   <div class="container">
 <div class="popup__info__body hidden">
   <div class="popup__close"></div>
@@ -31,14 +31,40 @@
 <div class="popup__getservice__body hidden">
   
   <div class="popup__close"></div>
-  <h2>Заполните поля для записи на макияж:</h2>
-  <form action="#" method="GET">  
+  <h2>Заполните форму и мы Вам перезвоним:</h2>
+  <!--<form action="#" method="GET">  
     <input class="inp" type="text" maxlength="35" size="35" name="login" placeholder="Имя">
     <input class="inp" type="text" maxlength="35" size="35" name="phone" placeholder="Телефон">
     <input class="inp" type="text" maxlength="35" size="35" name="message" placeholder="Сообщение">    
     <button type="submit" class="btn btn__services">Отправить</button>   
     
-  </form>
+  </form>-->
+
+  <form class="contact-us-form">
+    <div class="form__group half-width">
+        <label class="form__label">
+            <span class="form__label__title">Ваше Имя</span>
+            <input type="text" title="Ваше Имя" required="" minlength="2" maxlength="35" class="form__control" placeholder="Введите ваше имя" value="">
+        </label>
+    </div>
+    <div class="form__group half-width">
+        <label class="form__label">
+            <span class="form__label__title">Ваш номер телефона</span>
+            <input type="phone" title="Ваш номер телефона" required="" minlength="7" maxlength="30" class="form__control" placeholder="Введите ваш номер телефона" value="">
+        </label>
+    </div>
+    <div class="form__group full-width">
+        <label class="form__label">
+            <span class="form__label__title">Какой макияж желаете</span>
+            <textarea cols="30" rows="10" title="Какой макияж желаете" required="" minlength="35" maxlength="3000" class="form__control" placeholder="Введите желаемый вид макияжа"></textarea>
+        </label>
+    </div>
+    <div class="form__group full-width">
+        <div class="contact-us-form__actions">
+            <button class="btn btn__services" type="submit">Отправить</button>
+        </div>
+    </div>
+</form>
 </div>
 
 

@@ -49,7 +49,9 @@
             $('.popup').removeClass('show');
             $('.popup').addClass('hidden');
             $('.popup__info__body').removeClass('show');
-            $('.popup__info__body').addClass('hidden'); 
+            $('.popup__info__body').addClass('hidden');
+            $('.popup__getservice__body').removeClass('show');
+            $('.popup__getservice__body').addClass('hidden'); 
             $('body').removeClass('lock');
             
          } 
