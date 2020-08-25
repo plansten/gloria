@@ -328,16 +328,18 @@ padding-top: 200px;
 }
 
 
-
-
-
-
-
 .popup__text{
   color: #fff;
   position: relative;
-  line-height: 25px;
+  line-height: 20px;
+  font-size: 15px;
+  letter-spacing: 1px;
 }
+
+.popup h2{
+  font-size: 20px;
+}
+
 .btn{
 	position: relative;	
 	background-color: rgb(128,242,249);
