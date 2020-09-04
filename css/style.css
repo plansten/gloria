@@ -569,7 +569,13 @@ button, input {
   color: #443b3b;
   margin-left: -49px;
   margin-right: -49px;
+  cursor: pointer;
 }
+
+.slick-arrow:focus, .slick-arrow:active{
+  outline: none;
+}
+
 .slider__item{
   text-align: center;
   height: 235px;
